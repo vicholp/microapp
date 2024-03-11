@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: 
+      dockerfile: deploy/prod/Dockerfile
+      context: ../../.
+    ports: 
+      - 80
